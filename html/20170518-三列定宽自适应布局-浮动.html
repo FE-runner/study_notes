@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		div{
+			box-sizing: border-box;
+		}
+		.box {
+			height: 400px;
+			overflow: hidden;
+			border: 1px solid #000;
+		}
+
+		.fl {
+			float: left;
+		}
+
+		.fr {
+			float: right;
+		}
+
+		.item1 {
+			background: red;
+			width: 200px;
+			height: 100%;
+		}
+
+		.item3 {
+			background: yellow;
+			width: 400px;
+			height: 100%;
+		}
+
+		.item2 {
+			background: green;
+			height: 400px;
+			margin-left: 200px;
+			margin-right: 400px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="box">
+		<div class="item1 fl"></div>
+		<div class="item3 fr"></div>
+		<!--浮动元素必须放在非浮动元素以前才可以-->
+		<!--浮动元素的高度不能根据中间自适应元素的高度去自适应，父集必须设置高度，定位布局则不存在这个问题-->
+		<div class="item2 "></div>
+
+	</div>
+</body>
+
+</html>
