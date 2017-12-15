@@ -60,69 +60,69 @@
 // })();
 
 (function () {
-	var foo = {
-		bar: function () {
-			console.log(this);
-		},
-	}
-	foo.bar() // { bar: [Function: bar] }
+  var foo = {
+    bar: function () {
+      console.log(this);
+    },
+  }
+  foo.bar() // { bar: [Function: bar] }
 })();
 
 (function () {
-	var foo = {
-		bar1: this //
-	}
-	foo.bar1 // global
+  var foo = {
+    bar1: this //
+  }
+  foo.bar1 // global
 })();
 (function () {
-	var foo = {
-		bar: function () {
-			console.log(this);
-		},
-		bar1: this //
-	}
-	foo.bar() // global
-	foo.bar1 // global
+  var foo = {
+    bar: function () {
+      console.log(this);
+    },
+    bar1: this //
+  }
+  foo.bar() // global
+  foo.bar1 // global
 })();
 (function () {
-	function Foo() {
-		getName = function () {
-			console.log(1);
-		};
-		return this;
-	}
+  function Foo() {
+    getName = function () {
+      console.log(1);
+    };
+    return this;
+  }
 
-	Foo.prototype.getName = function () {
-		console.log(3);
-	};
+  Foo.prototype.getName = function () {
+    console.log(3);
+  };
 
-	function getName() {
-		console.log(5);
-	};
-	new Foo().getName() //3
+  function getName() {
+    console.log(5);
+  };
+  new Foo().getName() //3
 })();
 (function () {
-	function Foo() {
-		getName = function () {
-			console.log(1);
-		};
-		return this
-	}
+  function Foo() {
+    getName = function () {
+      console.log(1);
+    };
+    return this
+  }
 
-	function getName() {
-		console.log(5);
-	}
+  function getName() {
+    console.log(5);
+  }
 
-	function Baz() {
-		return this;
-	}
-	console.log(Baz()) // global 
-	// console.log(this.Baz()) // 报错/window 
-	// console.log(global.Baz()) // 报错/window
+  function Baz() {
+    return this;
+  }
+  console.log(Baz()) // global 
+  // console.log(this.Baz()) // 报错/window 
+  // console.log(global.Baz()) // 报错/window
 
-	getName() // 5 
-	console.log(getName()) // 5 undefined 
-	console.log(Foo()) //global
-	getName() // 1
-	console.log(getName()) // 1 undefined 
+  getName() // 5 
+  console.log(getName()) // 5 undefined 
+  console.log(Foo()) //global
+  getName() // 1
+  console.log(getName()) // 1 undefined 
 })();

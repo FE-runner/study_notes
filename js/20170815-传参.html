@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <!-- call by sharing 传递进来的是 引用的拷贝，而不是引用本身。call by value where value is the reference copy-->
+    <!--保存对象的变量，它里面装的值是这个对象在堆内存中的地址。-->
+    <!--在javascript中是不允许直接访问保存在堆内存中的对象的 -->
+    <!--按引用访问-->
+    <script>
+      var obj = { a: 1 };
+      var obj2 = { a: 1 };
+      var arr = [1, 2, 3];
+      var num = 2;
+
+      function changeObj(json) {
+        //        json = { a: 5 };
+        json.a = 5;
+        console.log(obj)
+        return json === obj;
+      }
+
+      function changeObj2(json) {
+        json = { a: 5 };
+        console.log(obj2)
+        return json === obj;
+      }
+
+      console.log(changeObj(obj));
+      console.log(changeObj2(obj2));
+      //      console.log(obj); //{a:5}
+      //      changeObj(num);
+      //      console.log(num); //2
+      //      changeObj(arr);
+      //      console.log(arr);
+    </script>
+  </body>
+</html>
