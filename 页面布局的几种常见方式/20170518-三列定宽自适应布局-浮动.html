@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #ccc;
+    }
+
+    div {
+      box-sizing: border-box;
+    }
+
+    .box {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .fl {
+      float: left;
+    }
+
+    .fr {
+      float: right;
+    }
+
+    .left {
+      background: red;
+      width: 200px;
+      height: 100%;
+    }
+
+    .right {
+      background: yellow;
+      width: 100px;
+      height: 100%;
+    }
+
+    .middle {
+      background: green;
+      height: 100%;
+      margin-left: 200px;
+      margin-right: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="left fl"></div>
+    <div class="right fr"></div>
+    <div class="middle "></div>
+    <!-- 左右元素浮动 中间元素不浮动且放在最后 -->
+
+  </div>
+</body>
+
+</html>
