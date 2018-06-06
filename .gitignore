@@ -1,6 +1,5 @@
 node_modules/
-npm-debug.log
-yarn-error.log
-selenium-debug.log
 .*
 *.log
+FE-Interview-Questions
+javascript-algorithms
