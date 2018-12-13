@@ -1,5 +1,5 @@
 node_modules/
-.*
 *.log
 FE-Interview-Questions
 javascript-algorithms
+.temp
