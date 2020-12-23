@@ -2,37 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c2d7d8-813d-4ec6-8e26-a02d09f4832a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ES6/10-Symbol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/12-Proxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/13-Reflect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/14-Promise 对象.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/15-Iterator和for...of循环.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/16-Generator 函数的语法.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ES6/17-Generator 函数的异步应用.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试手写方法/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试手写方法/.idea/dictionaries/liany.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试手写方法/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试手写方法/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试手写方法/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript-algorithms" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-algorithms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170513-二维数组矩阵转换.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170515-数组去重.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170515-驼峰转换.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170518-排序算法-冒泡排序.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170518-排序算法-快速排序.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170518-数组找最大最小值.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170518-随机数生成器.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170608-Promise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170608-XMLHttpRequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170609-观察者模式.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170623-函数节流与函数去抖.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170719-async_await.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170804-面试题.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20170815-传参.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20171215-Aarry的方法.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/20171215-bind,apply,call的用法.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript-algorithms/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-algorithms/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/一些JS方法/20170518-排序算法-冒泡排序.js" beforeDir="false" afterPath="$PROJECT_DIR$/一些JS方法/20170518-排序算法-冒泡排序.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,95 +27,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa/lib/application.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa-compose/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="38" column="44" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="44" />
+            <state relative-caret-position="340">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
-                <element signature="e#518#596#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#127#182#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="15-Iterator和for...of循环.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6/15-Iterator和for...of循环.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10-Symbol.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6/10-Symbol.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12-Proxy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6/12-Proxy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="13-Reflect.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6/13-Reflect.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="14-Promise 对象.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6/14-Promise 对象.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="16-Generator 函数的语法.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ES6/16-Generator 函数的语法.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="104" selection-start-line="37" selection-start-column="104" selection-end-line="37" selection-end-column="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="17-Generator 函数的异步应用.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ES6/17-Generator 函数的异步应用.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="context.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa/lib/context.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -174,6 +81,7 @@
         <option value="$PROJECT_DIR$/ES6/14-Promise 对象.js" />
         <option value="$PROJECT_DIR$/ES6/16-Generator 函数的语法.js" />
         <option value="$PROJECT_DIR$/ES6/17-Generator 函数的异步应用.js" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -182,8 +90,6 @@
     <exe-path />
     <config-path />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -191,58 +97,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/javascript-algorithms/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/javascript-algorithms/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/any-promise/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/co/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/cookies/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/deep-equal/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/delegates/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/error-inject/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/http-errors/http-assert/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/is-generator-function/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/keygrip/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/koa-compose/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/koa-convert/node_modules/koa-compose/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/koa-convert/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/koa-is-json/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/koa/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/only/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/koa的原理/node_modules/vary/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="836" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -278,9 +135,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -294,11 +149,6 @@
               <item name="study_notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="study_notes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="study_notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_notes" type="462c0819:PsiDirectoryNode" />
-              <item name="ES6" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -310,9 +160,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="8.9.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -326,7 +177,7 @@
     <property name="node.js.selected.package.standard" value="/usr/local/lib/node_modules/eslint" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -347,19 +198,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.15-Iterator和for...of循环.js">
-    <configuration name="15-Iterator和for...of循环.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="15-Iterator和for...of循环.js" working-dir="$PROJECT_DIR$/ES6" />
-    <configuration name="20170523-Vue双向绑定的实现.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="20170523-Vue双向绑定的实现.js" working-dir="$PROJECT_DIR$/knowledge/20170927-Vue双向绑定" />
-    <configuration name="20170609-观察者模式.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="20170609-观察者模式.js" working-dir="$PROJECT_DIR$/js" />
-    <configuration name="20171215-bind,apply,call的用法.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="20171215-bind,apply,call的用法.js" working-dir="$PROJECT_DIR$/js" />
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="15-Iterator和for...of循环.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="15-Iterator和for...of循环.js" working-dir="$PROJECT_DIR$/ES6">
+      <method v="2" />
+    </configuration>
+    <configuration name="20170523-Vue双向绑定的实现.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="20170523-Vue双向绑定的实现.js" working-dir="$PROJECT_DIR$/knowledge/20170927-Vue双向绑定">
+      <method v="2" />
+    </configuration>
+    <configuration name="20170609-观察者模式.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="20170609-观察者模式.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="20171215-bind,apply,call的用法.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="20171215-bind,apply,call的用法.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.20170609-观察者模式.js" />
       <item itemvalue="Node.js.20171215-bind,apply,call的用法.js" />
       <item itemvalue="Node.js.20170523-Vue双向绑定的实现.js" />
       <item itemvalue="Node.js.15-Iterator和for...of循环.js" />
+      <item itemvalue="Node.js.index.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.15-Iterator和for...of循环.js" />
         <item itemvalue="Node.js.20170523-Vue双向绑定的实现.js" />
         <item itemvalue="Node.js.20170609-观察者模式.js" />
@@ -389,11 +253,16 @@
       <workItem from="1530671140037" duration="716000" />
       <workItem from="1530758576017" duration="1080000" />
       <workItem from="1530767133886" duration="86000" />
+      <workItem from="1575882035960" duration="811000" />
+      <workItem from="1576032832729" duration="24440000" />
+      <workItem from="1576481678056" duration="2214000" />
+      <workItem from="1576484716461" duration="5265000" />
+      <workItem from="1576739134214" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34801000" />
+    <option name="totallyTimeSpent" value="67535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,142 +274,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28488678" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49634275" visible="true" weight="0.11392405" />
+      <window_info id="Structure" order="1" sideWeight="0.5036573" side_tool="true" visible="true" weight="0.11392405" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22361547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41955194" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32958034" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021097" side_tool="true" weight="0.2840671" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32958034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32892057" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978903" weight="0.28309572" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41955194" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4978903" weight="0.28213167" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021097" side_tool="true" weight="0.2840671" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32958034" />
+      <window_info anchor="bottom" id="调试" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="17" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ES6/17-Generator 函数的异步应用.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa/lib/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa-compose/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="e#518#596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/15-Iterator和for...of循环.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/10-Symbol.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/12-Proxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/13-Reflect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/14-Promise 对象.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/16-Generator 函数的语法.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="104" selection-start-line="37" selection-start-column="104" selection-end-line="37" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa/lib/context.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/17-Generator 函数的异步应用.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge/20170927-Vue双向绑定/20170523-Vue双向绑定的实现.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/20170719-async_await.html" />
-    <entry file="file://$PROJECT_DIR$/js/20170815-传参.html" />
-    <entry file="file://$PROJECT_DIR$/bug/20170815-浏览器的滚动基准.html" />
-    <entry file="file://$PROJECT_DIR$/js/20170719-async_await.html" />
-    <entry file="file://$PROJECT_DIR$/js/20170815-传参.html" />
-    <entry file="file://$PROJECT_DIR$/bug/20170815-浏览器的滚动基准.html" />
-    <entry file="file://$PROJECT_DIR$/js/20170719-async_await.html" />
-    <entry file="file://$PROJECT_DIR$/js/20170815-传参.html" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/20170515-数组去重.js" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -593,6 +353,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa-compose/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#518#596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/一些JS方法/20191208-一些别人的封装方法.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="e#1083#1143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa/lib/context.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -600,48 +380,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa/lib/application.js">
+    <entry file="file://$PROJECT_DIR$/ES6/17-Generator 函数的异步应用.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa-compose/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="e#518#596#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/15-Iterator和for...of循环.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/10-Symbol.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/12-Proxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/13-Reflect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        <state relative-caret-position="340">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -659,10 +401,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/17-Generator 函数的异步应用.js">
+    <entry file="file://$PROJECT_DIR$/ES6/13-Reflect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="306">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/12-Proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/10-Symbol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/15-Iterator和for...of循环.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa的原理/node_modules/koa/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#127#182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

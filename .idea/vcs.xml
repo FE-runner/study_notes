@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FE-Interview-Questions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/javascript-algorithms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/yoman/generator-vue-webpack-spa" vcs="Git" />
   </component>
 </project>
