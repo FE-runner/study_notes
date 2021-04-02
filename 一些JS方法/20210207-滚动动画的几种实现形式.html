@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .contianer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .contianer-item {
+        flex: 1;
+      }
+      .scroll-container {
+        width: 300px;
+        height: 80vh;
+        margin: auto;
+        background: #ccc;
+        overflow: auto;
+        scroll-behavior: smooth;
+      }
+      .scroll-container:last-child {
+        scroll-behavior: initial;
+      }
+      .card-item {
+        width: 100%;
+        height: 300px;
+        background: #0fd;
+        margin-bottom: 20px;
+      }
+      .card-item:last-child {
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contianer">
+      <div class="contianer-item">
+        <div class="">
+          <div class="">scroll-behavior: smooth;</div>
+          <div>兼容性</div>
+          <button class="btn1">点我滚动</button>
+        </div>
+        <div class="scroll-container">
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+        </div>
+      </div>
+      <div class="contianer-item">
+        <div class="">
+          <div class="">scrollIntoView</div>
+          <div>不好调整位置 调整需要和锚点dom搭配</div>
+
+          <button class="btn2">点我滚动</button>
+        </div>
+        <div class="scroll-container">
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+        </div>
+      </div>
+      <div class="contianer-item">
+        <div class="">
+          <div class="">RequestAnimationFrame+Tween</div>
+          <button class="btn3">点我滚动</button>
+        </div>
+        <div class="scroll-container">
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+          <div class="card-item"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const scrollContainer = window.document.querySelectorAll('.scroll-container');
+      console.log(scrollContainer);
+      window.document.querySelector('.btn1').onclick = function (ev) {
+        scrollContainer[0].scrollTop = Math.random() * 3000;
+      };
+      window.document.querySelector('.btn2').onclick = function (ev) {
+        const domList = scrollContainer[1].querySelectorAll('.card-item');
+        const index = parseInt(domList.length * Math.random());
+        domList[index].scrollIntoView();
+      };
+      window.document.querySelector('.btn3').onclick = function (ev) {
+        const target = parseInt(Math.random() * 2000);
+        const start = scrollContainer[2].scrollTop;
+        const dis = target - start;
+        const timeFrame = 60 * 2;
+        const step = dis / timeFrame;
+        window.requestAnimationFrame(handler);
+        function handler() {
+          if (target - scrollContainer[2].scrollTop < step) {
+          } else {
+            scrollContainer[2].scrollTop = scrollContainer[2].scrollTop + step;
+            window.requestAnimationFrame(handler);
+          }
+        }
+      };
+    </script>
+  </body>
+</html>

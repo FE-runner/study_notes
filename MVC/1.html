@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <select name="" id="list" size="10" style="width: 500px"></select>
+    <br />
+    <button id="plusBtn">+</button>
+    <button id="minusBtn">-</button>
+  </body>
+  <script>
+    function s() {
+      return new Date();
+    }
+    function Event(observer) {
+      this._observer = observer;
+      this._listeners = [];
+    }
+    Event.prototype = {
+      constructor: Event,
+      on(listener) {
+        this._listeners.push(listener);
+      },
+      emit(obj) {
+        for (let i = 0; i < this._listeners.length; i++) {
+          this._listeners[i](this._observer, obj);
+        }
+      },
+    };
+  </script>
+  <script>
+    function Mode(datas) {
+      this._datas = datas;
+      this._selectedIndex = -1;
+      this.itemAdd = new Event(this);
+      this.itemRemoved = new Event(this);
+      this.selectedIndexChanged = new Event(this);
+    }
+    Mode.prototype = {
+      constructor: 'Mode',
+      getItems() {
+        return [].concat(this._datas);
+      },
+      addItem(data) {
+        this._datas.push(data);
+        this.itemAdd.emit({ data });
+      },
+      removeItem(index) {
+        var item = this._elems[index];
+        this._elems.splice(index, 1);
+        this.itemRemoved.emit({ elem: item });
+      },
+      getSelectedIndex() {
+        return this._selectedIndex;
+      },
+      setSelectedIndex(index) {
+        let prevIndex = this._selectedIndex;
+        this._selectedIndex = index;
+        this.selectedIndexChanged.emit({ prevIndex });
+      },
+    };
+  </script>
+  <script>
+    function View(model, elements) {
+      this._model = model;
+      this._elements = elements;
+      this.listModified = new Event(this);
+      this.addButtonClicked = new Event(this);
+      this.delButtonClicked = new Event(this);
+      let that = this;
+      this._model.itemAdd.on(() => {
+        that.rebuildList();
+      });
+      this._model.itemRemoved.on(() => {
+        that.rebuildList();
+      });
+      console.log(elements);
+      this._elements.addBtn.onclick = () => {
+        that.addButtonClicked.emit();
+      };
+      this._elements.delBtn.onclick = () => {
+        that.delButtonClicked.emit();
+      };
+    }
+    View.prototype = {
+      constructor: 'View',
+      rebuildList() {
+        let list = this._elements.list;
+        let item;
+        list.innerHTML = '';
+        items = this._model.getItems();
+        for (const key in items) {
+          if (Object.hasOwnProperty.call(items, key)) {
+            const element = items[key];
+            list.innerHTML += '<option value="' + element + '">' + element + '</option>';
+          }
+        }
+        this._model.setSelectedIndex(-1);
+      },
+      show() {
+        this.rebuildList();
+      },
+    };
+  </script>
+  <script>
+    function Controller(model, view) {
+      this._model = model;
+      this._view = view;
+      let that = this;
+      this._view.listModified.on((sender, args) => {
+        that.updateSelected(args.index);
+      });
+      this._view.addButtonClicked.on(() => {
+        that.addItem();
+      });
+      this._view.delButtonClicked.on(() => {
+        that.delItem();
+      });
+    }
+    Controller.prototype = {
+      constructor: 'Controller',
+      addItem() {
+        let item = window.prompt('Add Item:', '');
+        if (item) {
+          this._model.addItem(item);
+        }
+      },
+      delItem() {
+        let index = this._model.getSelectedIndex();
+        if (index !== -1) {
+          this._model.removeItem(index);
+        }
+      },
+      updateSelected(index) {
+        this._model.setSelectedIndex(index);
+      },
+    };
+  </script>
+  <script>
+    window.onload = () => {
+      let model = new Mode(['PHP', 'JS']);
+      let view = new View(model, {
+        list: window.document.getElementById('list'),
+        addBtn: window.document.getElementById('plusBtn'),
+        delBtn: window.document.getElementById('minusBtn'),
+      });
+      let controller = new Controller(model, view);
+      view.show();
+    };
+  </script>
+</html>
